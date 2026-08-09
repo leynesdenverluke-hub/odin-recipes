@@ -1,0 +1,146 @@
+* {
+    background-color: white;
+    padding: 0px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+img { 
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px black;
+} 
+
+
+ul {
+    list-style: none;
+}
+
+p {
+    background-color: rgb(255, 98, 119);
+    padding: 8px;
+    border-radius: 8px;
+    margin: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    font-size: 20px;
+    border-top: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px;
+
+}
+
+
+/* Class Selector */
+
+/* Home */
+
+.home {
+    border-radius: 8px;
+    background-color: lightblue;
+    text-align: center;
+    width: 8em;
+    margin: 16px auto;
+    padding: 8px;
+}
+
+.recipe-links {
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 16px
+}
+
+.recipe-links > li {
+    background-color: none;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 16px auto;
+    padding: 8px;;
+}
+
+.recipe-links.items{
+    background-color: white;
+    width: 8em;
+    margin: 16px auto
+}
+
+.recipe-links.items:hover {
+    background-color: lightgray;;
+}
+
+.recipe-links.items > a {
+    font-weight: bold;
+    color: black;
+
+}
+
+footer a{
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    color:green;
+    padding: 10px;
+    border-radius: 8px
+}
+
+footer a:hover{
+    background-color: lightgray;
+}
+
+footer.made{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin: -15px;
+    border-top: 2px solid black;
+    padding: 8px;
+    border-radius: 8px
+}
+/* Pages */
+.name {
+    text-align: center;
+
+}
+.pic{
+    background-color: lightblue;
+    border-radius: 8px;
+    text-align: center;
+    margin: 16px;
+    padding: 8px;
+}
+
+
+h2 {
+    background-color: rgb(226, 230, 43);
+    border-radius: 8px;
+    text-align: center;
+    width: 8em;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+
+.ingredients {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 26px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.ingredients > li {
+    background-color: lightgray;
+    font-weight: bold;
+    margin: 10px;
+    list-style-type: "➔";
+}
